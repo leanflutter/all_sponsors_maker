@@ -1,0 +1,14 @@
+name: all_sponsors_maker
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  args: ^2.2.0
+  github: ^9.22.0
+  liquid_engine: ^0.2.2
+  yaml: ^3.1.0
+
+executables:
+  all_sponsors_maker: main
